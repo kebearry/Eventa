@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+import logo from './EVENTA.png';
+import './App.css';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to Eventa</h1>
+          <h3>Your one stop event supplies rental</h3>
+          <br></br><br></br>
+        </header>
+        <p className="App-intro">
+          Jiayou for our project!!!
+        </p>
+      </div>
+    );
+  }
+}
+
+export default App;
